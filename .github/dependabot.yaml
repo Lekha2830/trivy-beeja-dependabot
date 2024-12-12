@@ -2,20 +2,20 @@ version: 2
 updates:
   # Backend Services (Gradle)
   - package-ecosystem: "gradle"
-    directory: "/beeja-services/beeja-accounts"
+    directory: "/beeja-services/beeja-finance"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 3
     
   - package-ecosystem: "gradle"
-    directory: "/beeja-services/beeja-expense"
+    directory: "/beeja-services/beeja-notifications"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 5
 
-  # Frontend Service (NPM)
-  - package-ecosystem: "npm"
-    directory: "/beeja-web"
-    schedule:
-      interval: "daily"
-    open-pull-requests-limit: 3
+  # # Frontend Service (NPM)
+  # - package-ecosystem: "npm"
+  #   directory: "/beeja-web"
+  #   schedule:
+  #     interval: "daily"
+  #   open-pull-requests-limit: 3
