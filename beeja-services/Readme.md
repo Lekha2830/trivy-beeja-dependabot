@@ -62,6 +62,8 @@ Employee module holds details of employees. It has some key information like job
 Finance  
 Finance module has information about your clients, payroll, invoice, contracts & inventory of your organisation. There are quite a handful of other settings in this module which comes with features specific to the country. You can manage handful of these features once you set your organisation.
 
+Testing dependabot
+
 
  
 
