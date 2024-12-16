@@ -22,7 +22,7 @@ dependencies {
     implementation 'org.javers:javers-spring-boot-starter-mongo:7.3.3'
     implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
     implementation 'org.apache.pdfbox:pdfbox:2.0.25'
-    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.2'
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
     implementation 'javax.xml.bind:jaxb-api:2.3.1'
 
