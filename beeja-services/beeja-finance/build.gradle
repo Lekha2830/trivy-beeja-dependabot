@@ -21,7 +21,7 @@ dependencies {
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
     implementation 'org.javers:javers-spring-boot-starter-mongo:7.3.3'
     implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
-    implementation 'org.apache.pdfbox:pdfbox:2.0.25'
+    implementation 'org.apache.pdfbox:pdfbox:3.0.3'
     implementation 'junit:junit:4.13.1'
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
     implementation 'javax.xml.bind:jaxb-api:2.3.1'
