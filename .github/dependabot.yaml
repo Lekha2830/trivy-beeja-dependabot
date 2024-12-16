@@ -2,19 +2,22 @@ version: 2
 updates:
   # Backend Services (Gradle)
   - package-ecosystem: "gradle"
-    directory: "/beeja-services/beeja-cloud-gateway"
+    directory: "/beeja-services/beeja-finance"
     schedule:
       interval: "daily"
-      time: "06:15"
+      time: "12:30"
+      timezone: "Asia/Kolkata"
 
   - package-ecosystem: "gradle"
-    directory: "/beeja-services/beeja-file-management"
+    directory: "/beeja-services/beeja-expense"
     schedule:
       interval: "daily"
-      time: "06:15"
+      time: "12:30"
+      timezone: "Asia/Kolkata"
 
   - package-ecosystem: "docker"
     directory: "/beeja-services/beeja-accounts"  
     schedule:
       interval: "daily"
-      time: "06:15"
+      time: "12:30"
+      timezone: "Asia/Kolkata"
