@@ -5,16 +5,16 @@ updates:
     directory: "/beeja-services/beeja-cloud-gateway"
     schedule:
       interval: "daily"
-      time: "6:00"
+      time: "06:15"
 
   - package-ecosystem: "gradle"
     directory: "/beeja-services/beeja-file-management"
     schedule:
       interval: "daily"
-      time: "6:00"
+      time: "06:15"
 
   - package-ecosystem: "docker"
     directory: "/beeja-services/beeja-accounts"  
     schedule:
       interval: "daily"
-      time: "6:00"
+      time: "06:15"
